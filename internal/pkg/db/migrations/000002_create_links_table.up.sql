@@ -5,4 +5,4 @@ CREATE TABLE IF NOT EXISTS Links(
     UserID INT,
     FOREIGN KEY (UserID) REFERENCES Users(ID),
     PRIMARY KEY (ID)
-)
+);
